@@ -158,7 +158,7 @@
 </header>
     <div id="gal-body">
     <!-- 点击特效 -->
-    <canvas class="fireworks" width="2794" height="1884" style="width: 1397px; height: 942px;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+    <canvas class="fireworks" width="2794" height="1884" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
     <script type="text/javascript" src="/custom/anime.min.js"></script>
     <script type="text/javascript" src="/custom/fireworks.js"></script>
         <div class="container">
@@ -219,7 +219,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/imgs/preview/preview4.jpg'
+        var defaultPreview = '/imgs/preview/preview2.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
