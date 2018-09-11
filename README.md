@@ -1,5 +1,5 @@
 
-#前言
+# 前言
 
 这是我的第一个博客，我的博客主要参考的是[hexo-theme-gal](https://github.com/ZEROKISEKI/hexo-theme-gal)，
 这个博客是我在搭建博客的时候在hexo的官方主题里找到的。
